@@ -11,6 +11,8 @@ import Liveupdates from './pages/Liveupdates';
 import ClubDashboard from "./pages/ClubDashboard"; 
 import ClubLogin from "./pages/ClubLogin"; 
 import Members from "./pages/Members";
+import Events from "./pages/Events";
+import ChatBot from "./pages/ChatBot";
 
 function App() {
   return (
@@ -24,6 +26,9 @@ function App() {
         <Route path="/clubs/:id" element={<ClubDetails />} />
         <Route path="/about" element={<About />} />
         <Route path="/live-updates" element={<Liveupdates />} />
+        <Route path="/events" element={<Events />} />
+
+     <Route path="/chatBot" element={<ChatBot />} />
 
 
 <Route path="/members" element={<Members />} />
